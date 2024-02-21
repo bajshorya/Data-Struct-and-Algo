@@ -1,7 +1,7 @@
 import java.util.Arrays;
 
 public class EasyArrays {
-    //1281 Subtract the Product and Sum of Digits of an Integer
+    //1281 Subtract the Product and Sum of Digits of an Int
     public static int subtractProductAndSum(int n) {
         int product=1;
         int sum=0;
