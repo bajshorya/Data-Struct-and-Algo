@@ -1,0 +1,12 @@
+Heaps
+-Complete Binary tree
+-Every node value >= all of its children
+-stored in array ,but represented as a tree
+-parent of every index i =i/2 (integer)
+-left of parent (i)= i*2
+-right of parent (i)= i*2+1
+-no pointers required because of these formulas
+-height = log(N)
+
+insertion time complex=O(log(N))
+deletion = O(log(N))
