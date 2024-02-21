@@ -1,0 +1,44 @@
+---Hashing=is mainly used to implement dictionaries where we have only [key, value] pair.
+ --Hashing is a method of storing and retrieving data from a database efficiently.
+  -Search \
+  -Insert  ---average time complexity O(1) an average
+  -Delete /
+--------------------------------------------------------------------------------------------------------
+  Unsorted      |       Sorted
+search O(n)     |     Search O(log(n))
+insert O(1)     |     insert O(n)
+delete O(1)     |     insert O(n)
+-------------------------------------------------------------------------------------------------------
+#Not useful for
+1)finding a closest value |    AVL tree &
+2)sorted data             |   Red Black Tree
+3)Prefix searching        |   Trie Data Structure (Google Favourite topic !!!!!!!!!!!!!!!!)
+--------------------------------------------------------------------------------------------------------
+Hashing
+Applications of Hashing
+-Dictionaries
+-DataBase Indexing
+-Cryptography
+-Caches
+-Symbol Tables
+-Routers
+-Getting Data from DataBase
+--------------------------------------------------------------------------------------------------------
+HashMap
+The part of java collection framework since java 1.2 it provides the basic implementation of the map
+interface of java.
+It stores the data in a key Value pair unlike this hashset which has only the key.
+--------------------------------------------------------------------------------------------------------
+Performance of HashMap and HashSet depend upon 2 parameters.
+1.Initial Capacity
+2.Load Factor
+---------------------------------------------------------------------------------------------------------
+Important feature of HashMap
+1.HashMap is a part of java.util.package
+2.HashMap extends an abstract class and abstract map which also provide which also provides an
+  implementation of a map interface.
+3.It does not maintain the track and order of insertion.
+--------------------------------------------------------------------------------------------------------
+Other Operations
+
+
