@@ -16,7 +16,13 @@ public class SBuffer {
         sb.insert(2, " Shorya ");
         String str=sb.toString();
         System.out.println(str);
+
+        String sentence="h h h h h h h h";
+        System.out.println(sentence.replaceAll("\\s", ""));
     }
+
+
+
 }
 
 //String Buffer Advantages:-
