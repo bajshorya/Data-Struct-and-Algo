@@ -101,3 +101,16 @@ public class MergeSort {
     }
 
 }
+// MergeSort(A)
+//      n=length(A)
+//      if (n<2) return 
+//      mid=n/2
+//      L=A[0...mid-1]
+//      R=A[mid....n-1]
+//      for   0<= l <=mid-1
+//          L[l]=A[l]
+//      for  mid<= r <=n-1
+//          R[r-mid]=A[r]
+//      MergeSort(L) 
+//      MergeSort(R) 
+//      Merge(L,R,A)
