@@ -1,4 +1,4 @@
-package shoryabaj;
+
 //https://leetcode.com/problems/first-missing-positive/
 //asked in amazon hard question
 

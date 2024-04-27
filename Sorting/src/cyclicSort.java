@@ -1,5 +1,3 @@
-package shoryabaj;
-
 import java.util.Arrays;
 
 public class cyclicSort {

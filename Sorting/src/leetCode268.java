@@ -1,4 +1,4 @@
-package shoryabaj;
+
 //https://leetcode.com/problems/missing-number/
 //amazon quest
 class leetCode268 {

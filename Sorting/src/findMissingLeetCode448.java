@@ -1,4 +1,4 @@
-package shoryabaj;
+
 //https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/
 //google ques
 import java.util.ArrayList;

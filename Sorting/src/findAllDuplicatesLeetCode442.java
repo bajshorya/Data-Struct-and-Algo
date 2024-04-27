@@ -1,5 +1,3 @@
-package shoryabaj;
-
 import java.util.ArrayList;
 import java.util.List;
 //important question, didn't understand properly

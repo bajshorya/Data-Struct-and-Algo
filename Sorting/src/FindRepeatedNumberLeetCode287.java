@@ -1,5 +1,5 @@
-package shoryabaj;
-//https://leetcode.com/problems/find-the-duplicate-number/
+
+// https://leetcode.com/problems/find-the-duplicate-number/
 //microsoft
 class FindRepeatedNumberLeetCode287 {
     public int findDuplicate(int[] arr) {
