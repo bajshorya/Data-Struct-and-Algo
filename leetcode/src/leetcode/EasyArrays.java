@@ -105,30 +105,7 @@ public class EasyArrays {
         
         return result;
     }
-
-
-  
-
-
-    public static void main(String[] args) {
-        // subtractProductAndSum(212233);
-        // int[] nums = {1, 2, 3, 4};
-        // int[] result = runningSum(nums);
-        
-        // // Print the running sum array
-        // for (int num : result) {
-        //     System.out.print(num + " ");
-        // }
-        // System.out.println();
-        // System.out.println(nums.length);
-        int[][] mat = {{0, 0, 0}, {0, 1, 0}, {1, 1, 1}};
-        int[][]  target = {{1,1,1},{0,1,0},{0,0,0}};
-        // for (int[] is : rotation(mat)) {
-        //     System.out.println(Arrays.toString(is));
-        // }
-        System.out.println(findRotation(mat, target));
-       
-    }
+   
     public static boolean findRotation(int[][] mat,int[][] target) {
         int[][] result=rotation(rotation(mat));
         return(compareMatrix(result, target));
@@ -191,6 +168,43 @@ public class EasyArrays {
         int temp = arr[first];
         arr[first] = arr[second];
         arr[second] = temp;
+    }
+
+
+    public static boolean sortedRotated1752(int[] nums){
+        int count=0;
+        int n=nums.length;
+        for (int i = 0; i < n-1; i++) {
+            if (nums[i]>nums[i+1]) {
+                count++;
+            }
+        }
+        if (nums[n-1]>nums[0]) {
+            count++;
+        }
+        
+        return count<=1;
+    }
+     public static void main(String[] args) {
+        // subtractProductAndSum(212233);
+int[] testCase1 = {3, 4, 5, 1, 2};
+        System.out.println(sortedRotated1752(testCase1)); // Expected output: true
+        // int[] result = runningSum(nums);
+        
+        // // Print the running sum array
+        // for (int num : result) {
+        //     System.out.print(num + " ");
+        // }
+        // System.out.println();
+        // System.out.println(nums.length);
+        // int[][] mat = {{0, 0, 0}, {0, 1, 0}, {1, 1, 1}};
+        // int[][]  target = {{1,1,1},{0,1,0},{0,0,0}};
+        // for (int[] is : rotation(mat)) {
+        //     System.out.println(Arrays.toString(is));
+        // }
+      
+        // System.out.println(findRotation(mat, target));
+       
     }
 }
 
