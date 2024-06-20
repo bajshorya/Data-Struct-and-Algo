@@ -185,6 +185,20 @@ public class EasyArrays {
         
         return count<=1;
     }
+    public static int MaxConsecutiveOnes_485(int[] nums) {
+        int max=0;
+        int cnt=0;
+        for(int i=0;i<=nums.length-1;i++){
+            if(nums[i]==1){
+                cnt++;
+            }
+            else{
+                cnt=0;
+            }
+            max=Math.max(cnt,max);
+        }
+        return max;
+    }
      public static void main(String[] args) {
         // subtractProductAndSum(212233);
 int[] testCase1 = {3, 4, 5, 1, 2};
